@@ -14,8 +14,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 BuildRequires: git
-Requires: stickshift-abstract
-Requires: rubygem(stickshift-node)
+Requires: openshift-origin-cartridge-abstract
+Requires: rubygem(openshift-origin-node)
 Requires: php >= 5.4
 Requires: mod_bw
 Requires: rubygem-builder
