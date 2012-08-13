@@ -2,7 +2,7 @@
 
 Summary:  Provides php-5.4 support
 Name:     openshift-origin-cartridge-php-5.4
-Version:  0.1
+Version:  0.1.1
 Release:  1%{?dist}
 Group:    Development/Languages
 License:  ASL 2.0
@@ -114,6 +114,6 @@ rm -rf %{buildroot}
 %doc %{cartridgedir}/LICENSE
 
 %changelog
-* Mon Aug 13 2012 Wesley Hearn <whearn@redhat.com> 0.1-1
+* Mon Aug 13 2012 Wesley Hearn <whearn@redhat.com> 0.1.1-1
 - Initial package
 
