@@ -1,13 +1,13 @@
-%global cartridgedir %{_libexecdir}/stickshift/cartridges/php-5.3
+%global cartridgedir %{_libexecdir}/stickshift/cartridges/php-5.4
 
-Summary:   Provides php-5.4 support
-Name:      cartridge-php-5.4
-Version: 0.97.1
-Release:   1%{?dist}
-Group:     Development/Languages
-License:   ASL 2.0
-URL:       http://openshift.redhat.com
-Source0: http://mirror.openshift.com/pub/crankcase/source/%{name}/%{name}-%{version}.tar.gz
+Summary:  Provides php-5.4 support
+Name:     openshift-origin-cartridge-php-5.4
+Version:  0.98.1
+Release:  1%{?dist}
+Group:    Development/Languages
+License:  ASL 2.0
+URL:      http://openshift.redhat.com
+Source0:  http://mirror.openshift.com/pub/crankcase/source/%{name}/%{name}-%{version}.tar.gz
 
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
